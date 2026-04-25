@@ -1,0 +1,6 @@
+@monivestuserapi_HostAddress = http://localhost:5231
+
+GET {{monivestuserapi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
