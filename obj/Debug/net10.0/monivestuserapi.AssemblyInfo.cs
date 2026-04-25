@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("monivestuserapi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4388f5ca8ba2455eddd6375d5d881d67e6898e68")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6546522fe1fe99ba1ef27cc118590a1992f64284")]
 [assembly: System.Reflection.AssemblyProductAttribute("monivestuserapi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("monivestuserapi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
