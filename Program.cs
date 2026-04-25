@@ -58,6 +58,10 @@ app.MapPost("/api/register", async ([FromBody] monivestuserapi.Models.UserRegist
 .WithName("RegisterUser")
 .WithDescription("Creates a new user account");
 
+app.MapGet("/", () => Results.Ok("API is running"))
+   .WithName("Root")
+   .WithDescription("Returns a simple status message");
+
 app.Run();
 
 
