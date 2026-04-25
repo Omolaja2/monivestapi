@@ -8,11 +8,8 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 
@@ -58,9 +55,9 @@ app.MapPost("/api/register", async ([FromBody] monivestuserapi.Models.UserRegist
 .WithName("RegisterUser")
 .WithDescription("Creates a new user account");
 
-app.MapGet("/", () => Results.Ok("API is running"))
+app.MapGet("/", () => Results.Redirect("/swagger"))
    .WithName("Root")
-   .WithDescription("Returns a simple status message");
+   .WithDescription("Redirects to Swagger UI");
 
 app.Run();
 
